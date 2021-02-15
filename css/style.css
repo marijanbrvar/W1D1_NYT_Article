@@ -22,10 +22,12 @@ ul {
   padding: 4px 12px;
   color: #111;
 }
+
 .top-nav {
   height: 32px;
   padding: 4px 16px;
 }
+
 .top-nav .btn {
   background-color: #567b95;
   border: 1px solid #326891;
@@ -63,19 +65,23 @@ article p,
 header {
   max-width: 680px;
 }
+
 figure img {
   width: 100%;
   max-height: 500px;
   object-fit: cover;
 }
+
 figure {
   color: #111111d3;
   font-size: 16px;
   font-style: normal;
 }
+
 figcaption {
   margin: 12px 120px 0 0;
 }
+
 .photo-credit {
   font-size: 14px;
 }
