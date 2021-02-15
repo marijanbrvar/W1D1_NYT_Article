@@ -1,11 +1,38 @@
 /* Project Meta */
 
 /* reset  */
+:root { font: 20px/1.2 "Roboto", sans-serif; height: 100%; }
 
 /* general */
-h1 {
-  color: #11111181;
+nav, ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 }
+
+.top-nav a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 4px 12px;
+  color: #111;
+}
+.top-nav{
+  height: 32px;
+  padding: 4px 16px;
+}
+.top-nav .btn {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  margin-right: 8px;
+  color: #fff;
+  text-transform:uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 7px 14px;
+}
+
 
 /* typography */
 
@@ -14,6 +41,19 @@ h1 {
 /* header */
 
 /* footer */
+
+/* article */
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main article p {
+  max-width: 680px;
+}
+
 
 /* Page template A */
 
