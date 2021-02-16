@@ -88,6 +88,43 @@ nav li a {
   justify-content: center;
 }
 
+.content header h1 {
+  max-width: 600px;
+  flex: 1 1 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.3em;
+  line-height: 1.3em;
+  padding-bottom: 24px;
+}
+
+.toolbox {
+  display: flex;
+  margin: 8px 0 24px 0;
+}
+
+.toolbox li {
+  background-color: #11111115;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  flex: 0 1;
+  margin-right: 20px;
+}
+
+.toolbox li:hover {
+  background-color: #fff;
+  border: 1px solid #11111125;
+  flex: 0 1;
+}
+
+figure img {
+  width: 100%;
+}
+
+.toolbox li a img {
+  padding: 6px;
+  width: 22px;
+}
+
 .article {
   display: flex;
 }
@@ -104,10 +141,6 @@ aside {
 
 figure {
   margin: 24px auto;
-}
-
-figure img {
-  width: 100%;
 }
 
 footer {
