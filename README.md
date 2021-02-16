@@ -7,11 +7,10 @@
 * Embedding images
 * The box model
 * Flexbox
+* Used Grid for sections
 * Positioning
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![Wath we are cloninig](./app_screenshot.png)
 
 ## Built With
 
@@ -43,12 +42,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
