@@ -58,13 +58,20 @@
   padding: 8px;
 }
 
+article {
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
 article p {
   margin: 0 auto;
   font-size: 23px;
   color: #111111cb;
   line-height: 32px;
-  max-width: 600px;
   margin-bottom: 12px;
+  grid-column: 2 / 2;
 }
 
 .card-body p {
@@ -129,18 +136,8 @@ article p {
   justify-content: center;
 }
 
-/* aside {
-  flex: 1;
-} */
-
-article {
-  width: 100%;
-  font-family: "Times New Roman", Times, serif;
-}
-
 article header {
-  width: 50%;
-  margin: 0 auto;
+  grid-column: 2 / -2;
 }
 
 article header h2 {
@@ -158,7 +155,8 @@ article figure img {
 }
 
 article figure {
-  margin: 0 10%;
+  margin: 0 20%;
+  grid-column: 1 / -1;
 }
 
 .inside-p {
@@ -175,6 +173,11 @@ article figcaption {
 
 .photo-credit {
   font-size: 14px;
+}
+
+.editor-picks-card img {
+  height: 80px;
+  width: 80px;
 }
 
 article header .share-btn-set {
@@ -219,6 +222,7 @@ article header .share-btn-set li a img {
 article .colofon {
   width: 600px;
   margin: 40px auto;
+  grid-column: 2 / -2;
 }
 
 .author {
@@ -234,11 +238,10 @@ article .colofon {
 }
 
 article h3 {
-  width: 600px;
   padding: 24px 0 12px 0;
   font-weight: 700;
   font-size: 22px;
-  margin: 0 auto;
+  grid-column: 2 / -2;
 }
 
 footer {
@@ -288,7 +291,8 @@ footer .footer-bottom ul {
 
 aside {
   font-size: 16px;
-  max-width: 210px;
+  max-width: 80%;
+  grid-column: 3 / -2;
 }
 
 .editor-picks {
@@ -307,6 +311,7 @@ aside {
 .editor-picks-card p {
   padding: 8px;
   font-size: 14px;
+  line-height: 20px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -382,6 +387,7 @@ aside {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  grid-column: 1 / -1;
 }
 
 .inflation-title {
